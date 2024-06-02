@@ -1,0 +1,33 @@
+
+
+.App-link {
+  color: #61dafb;
+}
+.main{
+  border: 4px solid #808DAD;
+  border-radius: 8px;
+  padding: 5px;
+  
+  /*  */
+ width: 29%;
+ margin-left: auto;
+ margin-right: auto;
+
+ 
+}
+input{
+ width: 100%;
+  
+}
+#phone-number{
+  width: 83%;
+}
+label{
+  margin-top: px;
+}
+input[type='submit']{
+  background-color: #01D293;
+  border: none;
+  margin-top: 4px;
+}
+

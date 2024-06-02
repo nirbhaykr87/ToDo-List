@@ -1,0 +1,144 @@
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-list {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .todo-list h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .controls input[type="text"] {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .controls button {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .controls select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 10px;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ced4da;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  tbody td:nth-child(1) {
+    padding: 10px;
+    text-align: left;
+    
+  }
+  
+  
+  .completed td {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .priority {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .priority.low {
+    background-color: #28a745;
+  }
+  
+  .priority.middle {
+    background-color: #ffc107;
+  }
+  
+  .priority.high {
+    background-color: #dc3545;
+  }
+  
+  .fa-trash-alt {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .fa-check-circle, .fa-circle {
+    color: green;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .controls {
+      flex-direction: column;
+    }
+  }
+.fa-solid, .fas {
+    margin-right: 5px;
+}
